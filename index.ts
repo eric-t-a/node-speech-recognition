@@ -1,5 +1,4 @@
-import wavefile from 'wavefile';
-const { WaveFile } = wavefile;
+import { WaveFile } from 'wavefile';
 import fs from 'fs';
 import util from 'util';
 import { Pipeline, pipeline, env } from '@huggingface/transformers';
@@ -9,7 +8,7 @@ import path from 'path';
 
 const DEFAULT_MODEL = "base.en";
 
-const NODE_MODULES_MODELS_PATH = "whisper-models";
+const NODE_MODULES_MODELS_PATH = "node_modules/node-speech-recognition/whisper-models";
 
 const MODELS_LIST: Record<string, string> = {
   "tiny": "whisper-tiny",

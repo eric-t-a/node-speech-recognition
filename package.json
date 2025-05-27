@@ -1,8 +1,9 @@
 {
   "name": "node-speech-recognition",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Speech Recognition for Node.js",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,6 +31,7 @@
     "wavefile": "^11.0.0"
   },
   "devDependencies": {
+    "@types/node": "^22.15.22",
     "@types/readline-sync": "^1.4.8",
     "@types/shelljs": "^0.8.16"
   }
