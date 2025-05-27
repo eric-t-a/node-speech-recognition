@@ -1,0 +1,36 @@
+{
+  "name": "node-speech-recognition",
+  "version": "1.0.0",
+  "description": "Speech Recognition for Node.js",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eric-t-a/node-speech-recognition.git"
+  },
+  "keywords": [
+    "Node",
+    "Speech",
+    "Recognition",
+    "Whisper",
+    "AI"
+  ],
+  "author": "Eric Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-t-a/node-speech-recognition/issues"
+  },
+  "homepage": "https://github.com/eric-t-a/node-speech-recognition#readme",
+  "dependencies": {
+    "@huggingface/transformers": "^3.5.1",
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.10.0",
+    "wavefile": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "@types/shelljs": "^0.8.16"
+  }
+}
