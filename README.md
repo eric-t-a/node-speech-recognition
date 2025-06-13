@@ -67,5 +67,5 @@ The `Whisper` class has the following methods:
 
 ## Made with
 
-- [Transformers.js](https://www.npmjs.com/package/@xenova/transformers)
+- [Transformers.js](https://www.npmjs.com/package/@huggingface/transformers)
 - [ShellJS](https://www.npmjs.com/package/shelljs)
