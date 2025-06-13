@@ -1,6 +1,5 @@
 declare const MODELS_LIST: Record<string, string>;
-export default function downloadModel(): Promise<void>;
-export declare class Whisper {
+export default class Whisper {
     private model;
     constructor();
     init(modelName: keyof typeof MODELS_LIST): Promise<void>;

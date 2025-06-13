@@ -1,11 +1,12 @@
 {
   "name": "node-speech-recognition",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Speech Recognition for Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc"
   },
   "repository": {
     "type": "git",

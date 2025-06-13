@@ -12,7 +12,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Whisper = void 0;
 const wavefile_1 = require("wavefile");
 const fs_1 = __importDefault(require("fs"));
 const util_1 = __importDefault(require("util"));
@@ -140,7 +139,6 @@ function downloadModel() {
         }
     });
 }
-exports.default = downloadModel;
 class Whisper {
     constructor() {
     }
@@ -178,4 +176,4 @@ class Whisper {
         });
     }
 }
-exports.Whisper = Whisper;
+exports.default = Whisper;
