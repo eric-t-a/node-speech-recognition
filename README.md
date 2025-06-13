@@ -16,7 +16,7 @@ npm i node-speech-recognition
 ## Usage
 
 ```js
-import { Whisper } from "node-speech-recognition";
+import Whisper from "node-speech-recognition";
 
 const whisper = new Whisper();
 await whisper.init('base.en')

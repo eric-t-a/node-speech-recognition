@@ -105,7 +105,7 @@ const askModel: () => any = () => {
     return answer;
 }
 
-export default async function downloadModel() {
+async function downloadModel() {
     const src="https://huggingface.co/Xenova";
     const pfx="resolve/main";
 
@@ -146,7 +146,7 @@ export default async function downloadModel() {
     }
 }
 
-export class Whisper {
+export default class Whisper {
     private model: Pipeline;
 
     constructor() {
